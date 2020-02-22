@@ -2,7 +2,7 @@
 <html>
 	<head>
 	    <meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>{HYUNTAE JUNG}</title>
+		<title>{TITLE}</title>
 		<link rel="shortcut icon" href="{Favicon}">
 		<style type="text/css">
 		<link rel="alternate" type="application/rss+xml" href="{RSS}">
@@ -26,12 +26,6 @@
 				min-height:100%;
 				position:relative;
 				background: #fbfbfb;
-				{block:ShowAvatar}
-				top:340px;
-				{/block:ShowAvatar}
-				{block:HideAvatar}
-				top: 100px;
-				{/block:HideAvatar}
 			}
 			header {
 			    position:fixed;
@@ -300,12 +294,11 @@
 	<body>
 
 <header>
-{block:ShowTitle}<h1><a href='/'>{Title}</a></h1>{/block:ShowTitle}
-    {block:ShowAvatar}<img src='{PortraitURL-128}'>{/block:ShowAvatar}
+<h1><a href='/'>{hyuntae jung}</a></h1>
+<img src='{PortraitURL-128}'>
     
 </header>
 	<div id="wrapper">
-	{block:HasPages}
 		<nav>
 		<div class="center">
 		<div>
@@ -313,7 +306,6 @@
 		</div>
 		</div>
 		</nav>
-	{/block:HasPages}
 
 		<div id="content">
 			<div id="posts">
