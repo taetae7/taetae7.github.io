@@ -2,7 +2,7 @@
 <html>
 	<head>
 	    <meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>{hyuntae jung}</title>
+		<title>hyuntae jung</title>
 		<link rel="shortcut icon" href="{Favicon}">
 		<style type="text/css">
 		<link rel="alternate" type="application/rss+xml" href="{RSS}">
@@ -294,7 +294,7 @@
 	<body>
 
 <header>
-<h1><a href='/'>{taetaes}</a></h1>
+<h1><a href='/'>taetaes</a></h1>
 <img src='{PortraitURL-128}'>
     
 </header>
@@ -302,7 +302,7 @@
 		<nav>
 		<div class="center">
 		<div>
-		    <a href='{URL}'>{Label}</a>
+		    <a href='{URL}'>hello world</a>
 		</div>
 		</div>
 		</nav>
@@ -313,33 +313,18 @@
 			    <div class='post'>
 				{block:Text}
                     <div class="text">
-                        {block:Title}
-                            <h3><a href="{Permalink}" style="font-size:1.8em;">{Title}</a></h3>
-                        {/block:Title}
+                        
+                          <h3><a href="{Permalink}" style="font-size:1.8em;">hello world2</a></h3>
+                        
 
                         {Body}
                     </div>
-                {/block:Text}
 
-                {block:Photo}
                     <div class="photo">
                         <a class='no-style' href="{block:LinkURL}{LinkURL}{/block:LinkURL}">
                             <img src="{PhotoURL-HighRes}" alt="{PhotoAlt}"/>
                         </a>
-                        {block:Exif}
-                		<div class="exif">
-                		    {block:Camera}{Camera}{/block:Camera} - 
-                		    {block:Aperture}{Aperture}{/block:Aperture} - 
-                		    {block:Exposure}{Exposure}{/block:Exposure} - 
-                		    {block:FocalLength}{FocalLength}{/block:FocalLength}
-            		    </div>
-                        {/block:Exif}
-                        
-                        {block:Caption}
-                            <div class="caption">{Caption}</div>
-                        {/block:Caption}
                     </div>
-                {/block:Photo}
 
                 {block:Panorama}
                     <div class="panorama">
@@ -404,24 +389,6 @@
                     </div>
                 {/block:Chat}
 
-                {block:Video}
-                    <div class="video">
-                        {Video-700}
-                        {block:Caption}
-                            <div class="caption">{Caption}</div>
-                        {/block:Caption}
-                    </div>
-                {/block:Video}
-
-                {block:Audio}
-                    <div class="audio">
-                        <div class="photosetdiv audioembeddiv">{AudioEmbed}</div>
-
-                        {block:Caption}
-	                        <div class="caption">{Caption}</div>
-	                    {/block:Caption}
-	                </div>
-	            {/block:Audio}
 	        <div class="subpost">
 	            <div>
 					<span style="float:left;">
