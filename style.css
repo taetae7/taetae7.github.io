@@ -38,6 +38,10 @@ header h1 {
     color: #b6dbfc;
 }
 
+h3 {
+    text-decoration: none;
+}
+
 h4 {
     display: inline-block;
     text-align: center;
@@ -53,7 +57,7 @@ nav {
 nav a {
     font-size:1.25em;
     text-decoration:none;
-    padding:8px;
+    padding:100px;
     margin:6px;
 }
 
@@ -70,7 +74,7 @@ a {
     -o-transition:.5s;-ms-transition:.5s;-moz-transition:.5s;-webkit-transition:.5s;transition:.5s;text-decoration:none;
 }
         
-.post a {border-bottom: 2px solid {AccentColor};}
+.post a {border-bottom: 2px solid}
 
 .post a:link {color:#3a3a3a;}   
 .post a:visited {color:#3a3a3a;}
