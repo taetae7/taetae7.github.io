@@ -75,6 +75,7 @@ header a {
 }
 
 header h1 {
+    font-size: 2em;
     display: inline-block;
     margin: 1em auto 0;
 }
@@ -86,7 +87,7 @@ header h1 {
 }
 
 nav {
-    padding-top:85px;
+    padding-top:90px;
 }
 
 nav a {
@@ -94,7 +95,7 @@ nav a {
     font-weight: 500;
     font-size:1.25em;
     padding:75px;
-    margin:0px;
+    margin:6px;
 }
 
 nav .center > div {
@@ -105,6 +106,34 @@ nav a:link {color: #b6dbfc;}
 nav a:visited {color: #b6dbfc;}
 nav a:hover {color:#000;}  
 nav a:active {color:#000; position:relative; top:2px;} 
+
+@media screen and (max-width: 708px){
+    nav a {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size:1em;
+        padding:20px;
+        margin:6px;
+    }
+}
+
+@media screen and (max-width: 435px){
+    header h1 {
+        font-size: 1.5em;
+        display: inline-block;
+        margin: 1em auto 0;
+    }
+    nav {
+        padding-top:70px;
+    }
+    nav a {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size:0.85em;
+        padding:10px;
+        margin:2px;
+    }
+}
 
 .center {
     text-align:center;
@@ -293,3 +322,4 @@ span.nextprev a {
         padding-top:25px;
     }
 }
+
